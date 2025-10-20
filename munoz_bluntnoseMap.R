@@ -3,9 +3,9 @@
 # ==========================================================
 
 # Install if needed
-need <- c("ggplot2","ggspatial","sf","osmdata","dplyr","maps","tibble")
-inst <- need[!need %in% rownames(installed.packages())]
-if (length(inst)) install.packages(inst, dependencies = TRUE)
+#need <- c("ggplot2","ggspatial","sf","osmdata","dplyr","maps","tibble")
+#inst <- need[!need %in% rownames(installed.packages())]
+#if (length(inst)) install.packages(inst, dependencies = TRUE)
 
 library(ggplot2)
 library(ggspatial)
